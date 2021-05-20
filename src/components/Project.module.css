@@ -1,0 +1,44 @@
+.projectContainer {
+  margin-top: 5rem;
+  height: calc(100vh - 5rem);
+  background-color: bisque;
+}
+
+.projectContainer h1,
+.projectContainer h2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 3rem 0 1rem 0;
+  font-size: 3rem;
+}
+
+.projectContainer p {
+  padding: 0.5rem 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.projectContainer h2 {
+  font-size: 2rem;
+  padding-top: 0;
+}
+
+.image {
+  width: 20rem;
+  margin: auto;
+}
+
+.image img {
+  width: 100%;
+  border-radius: 5%;
+}
+
+.projectContainer a {
+  text-decoration: none;
+  color: #9b20ba;
+}
+
+.projectContainer a:hover {
+  color: rgb(204, 146, 199);
+}

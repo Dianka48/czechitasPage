@@ -1,0 +1,36 @@
+.navigation li {
+  list-style: none;
+  margin-right: 5rem;
+}
+
+.navigation li:last-child {
+  margin-right: 0;
+}
+
+.navigation li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navigation li a:hover,
+.navigation .active {
+  color: white;
+}
+
+.navigation ul {
+  margin: 0;
+  display: flex;
+  height: 5rem;
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #9b20ba;
+}
+
+.navigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+}
