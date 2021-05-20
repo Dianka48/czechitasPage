@@ -12,7 +12,7 @@ const AboutMe = () => {
 
       <p>
         Momentálne sa učím v{' '}
-        <a href="https://www.czechitas.cz/en/" target="_blank">
+        <a href="https://www.czechitas.cz/en/" target="_blank" rel="noreferrer">
           Czechitas
         </a>{' '}
         na kurze Digitálna akadémia WEB. Inak pracujem v logistickej firme, ale
@@ -21,11 +21,12 @@ const AboutMe = () => {
         <a
           href="https://www.linkedin.com/in/diana-nem%C4%8Dekov%C3%A1-11113896/"
           target="_blank"
+          rel="noreferrer"
         >
           LinkedIn
         </a>{' '}
         a o mojich projektoch na{' '}
-        <a href="https://github.com/Dianka48" target="_blank">
+        <a href="https://github.com/Dianka48" target="_blank" rel="noreferrer">
           Github
         </a>
         .
